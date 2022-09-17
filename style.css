@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: 100px auto;
+    border-spacing: 15px;
+}
+
+
+td {
+    
+    border: 5px solid #2cd64d;
+    padding: 20px;
+    background: #f05712;
+    
+}
+
+
+tr:nth-child(odd) td:nth-child(odd), tr:nth-child(even) td:nth-child(even) {
+    background: #2cd64d;
+    border: 5px solid #f05712;
+    
+}
+
+div {
+    padding: 15px;
+    background: #2cd64d;
+}
+
+tr:nth-child(odd) td:nth-child(odd) div, tr:nth-child(even) td:nth-child(even) div {
+    padding: 15px;
+    background: #f05712;
+}
+
